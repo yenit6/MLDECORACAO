@@ -1,0 +1,47 @@
+body {
+
+    font-family: system-ui, -apple-system, BlinkMacSystem Font, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(197, 118, 72);
+
+}
+
+h4{
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.gallery {
+    width: 100%;
+}
+
+.image-container {
+    float: left;
+    width: 33.33%;
+    /* Organiza as imagens em três colunas */
+    box-sizing: border-box;
+    /* Garante que a largura inclua a borda e o padding */
+    padding: 5px;
+    /* Espaçamento entre as imagens */
+    margin-bottom: 50px;
+    /* Adiciona uma margem inferior entre as imagens */
+    position: relative;
+    /* Permite posicionar a legenda relativa a este contêiner */
+}
+
+.caption {
+    position: absolute;
+    /* Posiciona a legenda*/
+}
