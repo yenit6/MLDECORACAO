@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main{
+    margin: 20px;
+    background: goldenrod;
+    height: 250px;
+    width: 1300px;
+    border-radius: 10px;
+}
+
+.secundary{
+    margin: 20px;
+    background: goldenrod;
+    height: 100px;
+    width: 1300px;
+    border-radius: 10px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.secundary1{
+    background: black;
+    margin: 10px;
+    height: 80px;
+    width: 140px ;
+    color: white;
+    
+}
+
+.secundary2{
+    background: black;
+    margin: 10px;
+    height: 80px;
+    width: 140px ;
+}
+
+
+.secundary3{
+    background: black;
+    margin: 10px;
+    height: 80px;
+    width: 140px ;
+}
+
+.secundary4{
+    background: black;
+    margin: 10px;
+    height: 80px;
+    width: 140px ;
+}
+
+.secundary5{
+    background: black;
+    margin: 10px;
+    height: 80px;
+    width: 140px;
+}
+
