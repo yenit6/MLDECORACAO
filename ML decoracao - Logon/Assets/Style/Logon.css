@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+::placeholder {color: black;}
+body {
+    background: linear-gradient(45deg, #333, #666);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+#Login_Container {
+    display: none;
+}
+.MensageBox {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.8), rgba(255, 123, 123, 0.8));
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+}
+.ContainerLogon {
+    width: 30vw;
+    height: auto;
+    padding-bottom: 10px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+.ContainerLogon form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+.ContainerLogon form .Card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ContainerLogon form .Card:nth-child(3) {
+    justify-content: space-between;
+}
+.ContainerLogon form .Card i {
+    font-size: 30px;
+}
+.ContainerLogon form .Card i:nth-child(3):hover {
+    cursor: pointer;
+    padding: 10px;
+    background: linear-gradient(45deg, #333, #666);
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+}
+.ContainerLogon form .Card input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.ContainerLogon .EsqueceuSenha {
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+}
+.ContainerLogon .EsqueceuSenha a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.ContainerLogon .EsqueceuSenha a:hover {
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+.ContainerLogon .Controls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px;
+}
+.ContainerLogon .Controls button {
+    position: relative;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.ContainerLogon .Controls button::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0%;
+    background: rgba(0, 0, 0, 0.325);
+    left: 0;
+    top: 0;
+    z-index: 0;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+.ContainerLogon .Controls button:hover::after {
+    width: 100%;
+}
+.ContainerLogon .Controls button:active::after {
+    background: rgba(172, 255, 47, 0.325);
+} 
+.ContainerLogon form .Card input {
+    width: 100%;
+}

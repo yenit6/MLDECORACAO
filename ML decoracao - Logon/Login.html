@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="decoracao.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/Style/Logon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ML decorações - Login</title>
+</head>
+<body>
+
+    <div class="MensageBox" id="MensageBox"></div>
+    
+    <div class="ContainerLogon">
+        <!-- Login -->
+        <section id="Login_Container">
+            <form method="POST">
+                <h2>Login</h2>
+                <div class="Card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" name="email" id="InputEmailLogin" placeholder="E-mail">
+                </div>
+
+                <div class="Card">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="senha" id="InputSenhaLogin" placeholder="Senha">
+                    <i class="fa-solid fa-eye" id="MostrarSenhaLogin"></i>
+                </div>
+            </form>
+
+            <div class="EsqueceuSenha">
+                <a id="BtnEsquecirASenha">Esqueceu a senha?</a>
+            </div>
+
+            <div class="Controls">
+                <button id="BtnEntrar">Entrar</button>
+                <button id="BtnNaoTenhoConta">Criar conta</button>
+            </div>
+        </section>
+
+        <!-- Cadastro -->
+        <section id="Cadastro_Container">
+            <form method="POST">
+                <h2>Cadastro</h2>
+                
+                <div class="Card">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="InputNomeCadastro" placeholder="Nome">
+                </div>
+
+                <div class="Card">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="InputNomeCadastro" placeholder="Sobrenome">
+                </div>
+                
+                <div class="Card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" id="InputEmailCadastro" placeholder="E-mail">
+                </div>
+                
+                <div class="Card">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="InputSenhaCadastro" placeholder="Senha">
+                    <i class="fa-solid fa-eye" id="MostrarSenhaCadastro"></i>
+                </div>
+                
+                <div class="Card">
+                    <i class="fa-solid fa-calendar-alt"></i>
+                    <input type="text" id="InputDataNascimentoCadastro" placeholder="Data de Nascimento">
+                </div> 
+                
+                <div class="Card">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <input type="text" id="InputDataNascimentoCadastro" placeholder="Cpf">
+                </div> 
+            </form>
+            
+            <div class="Controls">
+                <button id="BtnCadastrar">Cadastrar</button>
+                <button id="BtnJaTenhoConta">Já tenho uma conta</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="Assets/javascript/Logon.js"></script>
+</body>
+</html>
