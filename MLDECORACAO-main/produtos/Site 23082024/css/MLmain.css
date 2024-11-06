@@ -1,0 +1,179 @@
+/* Estilo para o body */
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #2C2C2C;
+    overflow: hidden;
+}
+
+/* Estilos do header */
+header {
+    height: 60px;
+    background: #DAA520;
+    z-index: 2;
+}
+
+/* Menu ícone */
+#simbolo_menu {
+    position: absolute;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* Menu lateral */
+#menu_header {
+    z-index: 2;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    background: #2C2C2C;
+}
+
+/* Menu secundário (amarelo) */
+#menu_menu_header {
+    z-index: 3;
+    height: 60px;
+    width: 300px;
+    position: relative;
+    background: #DAA520;
+}
+
+/* Fechar menu */
+#close_menu {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Esconder menu */
+.hidden {
+    display: none;
+}
+
+/* Container principal amarelo */
+#container_main {
+    top: 100px;
+    background-color: #DAA520;
+    height: 552px;
+    border-radius: 10px;
+    margin: 30px;
+    padding-left: 70px;
+    padding-top: 30px;
+    position: relative;
+    display: flex; /* Alinha as seções lado a lado */
+    flex-direction: row;
+}
+
+/* Conteúdo da esquerda */
+#esquerda {
+    width: 50%; /* 50% do container */
+    padding: 20px;
+    background: red;
+    border-radius: 8px;
+}
+
+/* Conteúdo da direita */
+#direita {
+    width: 50%; /* 50% do container */
+    padding: 20px;
+    background: blue;
+    border-radius: 8px;
+}
+
+/* Nome do produto */
+#nome_produto {
+    font-size: large;
+    color: black;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Preço do produto */
+#preco_produto {
+    font-size: large;
+    color: black;
+}
+
+/* Descrição do produto */
+#desc {
+    margin-top: 20px;
+}
+
+/* Ícones de like e deslike */
+.stars {
+    width: 30px;
+    height: 30px;
+}
+
+/* Posicionamento dos ícones de like e deslike */
+#like {
+    cursor: pointer;
+}
+
+#deslike {
+    cursor: pointer;
+}
+
+/* Botão de alugar */
+#butao_alugar {
+    margin-top: 20px;
+    height: 60px;
+    width: 250px;
+    border-radius: 5%;
+    background-color: green;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Botão de adicionar ao carrinho */
+#addCarrinho {
+    margin: 25px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5%;
+    background: #6F89DB;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #container_main {
+        margin: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    #simbolo_menu {
+        margin: 10px;
+    }
+
+    #esquerda, #direita {
+        width: 100%; /* Para dispositivos menores, as seções ocupam toda a largura */
+    }
+
+    #nome_produto {
+        font-size: medium;
+    }
+
+    #preco_produto {
+        font-size: medium;
+    }
+
+    #desc {
+        font-size: small;
+    }
+}
