@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ML decorações - Esquecir a senha</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background: #333;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        ::placeholder {color: black;}
+        .container {
+            width: 90vw;
+            height: auto;
+            padding-bottom: 10px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+            overflow: hidden;
+            box-shadow: 0 0 10px black;
+        }
+        .container .Card {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .container .Card i {
+            font-size: 25px;
+        }
+        .container .Card input {
+            width: 90%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .container .Card input:focus::placeholder{
+            color: white;
+        }
+        .container .Card input:focus {
+            background: dimgray;
+            color: white;
+            box-shadow: 0 0 10px black;
+        }
+        .container button {
+            padding: 10px;
+            margin-top: 20px;
+            background: black;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-size: 20px;
+        }
+        .container button:hover {
+            background: darkgray;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Recuperação de senha!</h1>
+
+        <form method="post">
+            <div class="Card">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="InputEmailGetPass" placeholder="Insira um email de recuperação da senha" required>
+            </div>
+
+            <button id="BtnRecuperarSenha">Recuperar senha</button>
+        </form>
+    </div>
+
+
+    <script>
+        const InputEmailGetPass = document.getElementById('InputEmailGetPass')
+        const BtnRecuperarSenha = document.getElementById('BtnRecuperarSenha')
+        const EmailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+
+        BtnRecuperarSenha.addEventListener('click', (e) => {
+            e.preventDefault()
+            EnviarEmailGetPass()
+            InputEmailGetPass.value = ''
+        })
+
+        function EnviarEmailGetPass() {
+            if (InputEmailGetPass.value) {
+                if (EmailRegex.test(InputEmailGetPass.value)) alert("Link de recuperação de senha enviado!")
+                else alert("Email invalido!")
+
+            }else {
+                alert("Preencha o campo com um email válido!")
+            }
+        }
+    </script>
+</body>
+</html>
