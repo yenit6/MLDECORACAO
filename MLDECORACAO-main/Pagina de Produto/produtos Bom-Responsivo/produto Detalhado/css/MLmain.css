@@ -1,0 +1,388 @@
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #2C2C2C;
+    overflow: hidden;
+   
+    
+}
+
+/*Configuraçoes do Header*/
+header{
+    height: 60px;
+    background: #DAA520;
+    z-index: 2;
+   
+  
+}
+
+/*Simbolo de menu */
+#simbolo_menu{
+    position: absolute;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+
+/*Menu que abre apos clickar no simbolo do menu*/
+#menu_header{
+    z-index: 2;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top:0;
+    background: #2C2C2C;
+
+}
+
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+nav a {
+    font-size: 25px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+
+/*Segundo menu (Amarelo) que abre junto com o (menu_header)*/
+#menu_menu_header{
+    z-index: 3;
+    height: 60px;
+    width: 300px;
+    position: fixed;
+    top:0;
+    background: #DAA520;
+    position: relative;
+   
+}
+
+#close_menu{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+/* Style do Shop*/
+
+/* Container principal Amarelo*/
+
+#container_main{
+    margin-top: 100px;
+    background-color: #DAA520;
+    height: auto;
+    margin: 30px;
+    padding-left: 70px;
+    padding-top: 30px;
+    position: relative;
+    border-radius: 10px;
+
+       
+}
+
+
+
+
+/* A Foto "principal" do respectivo produto*/
+.container_foto_main{
+    background: rgb(184, 179, 179);
+    height: 300px;
+    width: 400px;
+ 
+
+}
+
+/* style de configuração do fundo das quatros fotos  */
+.painel_foto{
+    background-color: rgb(184, 179, 179);
+    height: auto;
+    width: auto;
+    margin: 10px;
+    
+}
+
+/* Altera o tamanho das 4 Imagem*/
+.foto-TL{
+    height: 70px;
+    width: 70px;
+}
+
+/* Altera o tamanho da Imagem Principal*/
+.foto-main-TL{
+    width: 350px;
+    height: 320px; 
+}
+
+/* Colocar as 4 fotos em horizontal*/
+.four_foto{
+    display: flex;
+    cursor: pointer;
+    width: 365px;
+}
+
+
+/*Informaçoes que estão dentro do Container Info*/
+
+.conteiner_info{
+    background: blue;
+    transform: translate(50vh,-55vh);
+    height: 516px;
+    width: 1000px;
+    text-align: center;
+  
+
+}
+
+#nome_produto{
+    position: Absolute;
+    top: 5%;
+    left: 500px;
+    font-size: 25px;
+    
+    
+}
+
+
+/*Posicionar o preço do produto  */
+#preco_produto{
+    position: Absolute;
+    top: 15%;
+    left: 500px;
+    font-size: 25px;
+
+}
+/*E o id do paragrafo que ea descrição */
+#desc{
+    position: absolute;
+    top: 25%;
+    left: 500px;
+    font-size: 20px;
+}
+
+
+
+#butao_alugar{
+    position: absolute; 
+    bottom: 3%;
+    left: 50%;
+    height:60px;
+    width: 250px;
+    border-radius: 5%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    
+    
+}
+
+/*E Uma Classe que ambos like e deslike possuem  altera o tamanho dos icones */
+#like,#deslike{
+ 
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+
+.div-like-deslike{
+    height: auto;
+    width: auto;
+    position: Absolute;
+    top: 340px;
+    left: 500px;
+    font-size: 25px;
+    
+}
+
+
+
+
+/*Botaõ de Comentario */
+#comentario{
+   margin: 10px;
+   height:50px;
+   width: 200px;
+   border-radius: 5%;
+   text-align: center;
+   font-size: medium;
+   cursor: pointer;
+   
+}
+
+/*Carrinho*/
+#addCarrinho{
+    height:50px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5%;
+    background: #6F89DB;
+    color: #FFFF;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#coment-addcar{
+    height: auto;
+    width: 370px;
+    background:  transparent;
+    display: flex;
+  
+}
+
+
+@media (min-width: 360px) and (max-width: 412px) {
+    
+    body{
+        height: 100vh;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        background: #2C2C2C;   
+    }
+
+    #container_main{
+        background-color:  red;
+        height: 100vh;
+        width: 412px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+        
+    }
+
+    .container_foto_main{
+        height: 200px;
+        width: 270px;
+        background: rgb(184, 179, 179);
+        border-radius: 10px;
+        margin: 10px;
+        
+    }   
+
+    .foto-main-TL{
+        width: 220px;
+        height: 210px; 
+    }
+
+    #coment-addcar{
+        height: auto;
+        width: 370px;
+        background:  transparent;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .four_foto{
+        height: 100px;
+        width: 370px;
+        background:  transparent;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .painel_foto{
+        background-color: rgb(134, 16, 16);
+        height: auto;
+        width: auto;
+        margin: 10px;
+        
+    }
+
+    #info-prod{
+       
+
+        height: 80%;
+        width: 370px;
+        background:  blue;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    #nome_produto{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        flex-wrap: wrap;
+    }
+
+    #preco_produto{
+        position: absolute;
+        top: 4%;
+        left: 0%;
+        flex-wrap: wrap;
+    }
+
+    .div-like-deslike{
+        position: absolute;
+        height: auto;
+        width: auto;
+        background: transparent;
+        top: 12%;
+        left: 39%;
+        
+    }
+    
+    #butao_alugar{
+        position: absolute;
+        top: 18%;
+        left: 15%;
+    }
+
+    #desc{
+        position: absolute;
+        height: auto;
+        width: auto;
+        top: 25%;
+        flex-wrap: wrap;
+        left: 1%;
+    }
+    
+   
+
+   
+}
