@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    background-color:#2C2C2C;
+    ;
+    /* Adiciona um fundo padrão para o body */
+}
+
+.tabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centraliza o conteúdo dentro da tabela */
+    height: 480px;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #DAA520;
+    /* Fundo semi-transparente */
+    position: relative;
+    /* Define a posição como relativa */
+    z-index: 1;
+    /* Coloca a tabela na frente */
+}
+
+
+
+.logo {
+    width: 100px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    /* Coloca a imagem na frente */
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+    /* Coloca o título na frente */
+}
+
+
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+
+button{
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 20px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
