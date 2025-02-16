@@ -1,0 +1,196 @@
+body{
+    background: #F5F5DC;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+
+header{
+    height: 70px;
+    width: 100%;
+    background: #FFC300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+header div{
+    background: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+header input{
+    height: 20px;
+
+    
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background: #2C2C2C;
+    text-align: center;
+}
+
+nav button{
+    height: 50px;
+    width: auto;
+    font-size: medium;
+    font-weight: 700;
+    background: none;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.menu{
+    
+background: #2C2C2C;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+height: auto;
+width: 200px;
+padding: 10px;
+left: 38%;
+top: 125px;
+z-index: 10;  
+position: absolute;
+    
+}
+
+
+.menu button{
+    height: 70px;
+    width: auto;
+    font-size: large;
+    background: #2C2C2C;
+    color: white;
+    border: none;
+    
+}
+
+.hidden{
+ display: none;
+}
+
+
+
+.menu button:focus{
+    background: #0a0a0a;
+    
+}
+
+
+nav button:focus {
+    background: #0a0a0a;
+}
+
+
+
+
+.carrosel{
+    margin: 30px;
+    height: 200px;
+    background: #da2020;
+}
+
+.section-class{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background: #F5F5DC;
+    
+}
+
+section button{
+    background: #FDF5A0;
+    color: black;
+    width: auto;
+    height: 60px;
+    width: 170px;
+    font-size: medium;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    
+}
+
+section button:focus{
+    background: #FFD900;
+    color: #000000;
+    
+}
+
+
+.Section-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    flex-wrap: wrap;   
+    
+}
+
+.item-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.section-item{
+    background: #FDF5A0;
+    height:370px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-item button{
+    background: #FFD900;
+    color: #000000;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+}
+
+
+
+footer{
+    background: #2C2C2C;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: larger
+
+}
+
+
+
+
