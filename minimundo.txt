@@ -1,0 +1,9 @@
+📌 MiniMundo
+O sistema desenvolvido é uma plataforma de aluguel de produtos, onde usuários podem reservar produtos por um período específico. A aplicação permite:
+
+Gerenciamento de usuários: Cadastro de pessoas físicas e jurídicas, com CPF ou CNPJ.
+Catálogo de produtos: Exibição de produtos disponíveis para aluguel.
+Carrinho de compras: Usuários adicionam produtos ao carrinho antes de realizar uma reserva.
+Reservas: Os produtos podem ser alugados, e cada reserva tem um status de controle.
+Avaliações: Usuários podem dar like ou dislike nos produtos e deixar comentários.
+Favoritos: Usuários podem salvar produtos em uma lista de favoritos para acessar depois.
