@@ -10,3 +10,11 @@ https://lucid.app/lucidchart/fc6967f3-f2e5-4f74-8b57-16de4ecff9da/edit?viewport_
 Canva 
 
 
+alternativas open source para lucidchart
+
+https://opensourcealternative.to/alternativesto/lucidchart
+
+
+
+
+
