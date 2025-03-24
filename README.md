@@ -8,8 +8,7 @@ https://lucid.app/lucidchart/94690f67-1de9-4af2-845d-6088954d55f8/edit?viewport_
 
 Canva 
 
-https://www.canva.com/design/DAGX2zcRlF8/sve9nDOeTIUIUFMUvP_b0Q/edit?utm_content=DAGX2zcRlF8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
+https://www.canva.com/design/DAGilpDHJO8/-kj7eyb7t5dLWnetMZTtrA/edit?utm_content=DAGilpDHJO8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 alternativas open source para lucidchart
 
