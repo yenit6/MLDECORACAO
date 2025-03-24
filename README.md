@@ -5,7 +5,7 @@ https://www.figma.com/design/orISpN9pgx5W9hGHexcmxS/Novo-Style-MLdecora%C3%A7%C3
 
 Projeto  LucidChart Caso de Uso 
 
-https://lucid.app/lucidchart/fc6967f3-f2e5-4f74-8b57-16de4ecff9da/edit?viewport_loc=-452%2C-16%2C1634%2C732%2C0_0&invitationId=inv_03e4eb88-b105-4730-93fc-59e0154ff5e6
+https://lucid.app/lucidchart/94690f67-1de9-4af2-845d-6088954d55f8/edit?viewport_loc=-958%2C-1065%2C2771%2C1242%2C0_0&invitationId=inv_67132887-896a-444b-84c0-452279d08633
 
 Canva 
 
