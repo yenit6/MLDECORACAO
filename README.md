@@ -19,6 +19,9 @@ drawio
 
 https://app.diagrams.net/#G1NXMRdEGWtMrvbHMWiJtloTn_v2cg2hKO#%7B%22pageId%22%3A%22IkAl6n67sQj0Z8s0-jb3%22%7D
 
+docs
+https://docs.google.com/document/d/1Fnr-jGtfy52uBckmwZCjTD58n2fJcURa9KRDlOvMWno/edit?usp=sharing
+
 
 
 
