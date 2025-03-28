@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background: #F5F5DC;
+}
+
+#Voltar{
+    height: 40px;
+    width: 120px;
+    background: rgb(51, 49, 49);
+    color:white;
+    font-size: larger;
+    border: none;
+}
+
+#Voltar:focus {
+    background: red;
+    color: rgb(0, 255, 234);
+}
+
+div{
+    border:  solid 2px;
+    height: 300px;
+    width: 700px;
+}
+
+div p {
+    
+}
