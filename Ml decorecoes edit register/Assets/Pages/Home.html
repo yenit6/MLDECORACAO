@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ML decorações - Home</title>
+</head>
+<body>
+
+    <!-- FLoats -->
+    <nav class="MenuFloat" id="MenuFloat">
+        <button>Decoração infantil</button>
+        <button>Decoração adulto</button>
+        <button>Decoração de casamento</button>
+    </nav>
+    <!-- Fim floats -->
+    
+    <header>
+        <div class="Top">
+            <img id="InsertPerfilHome" src="https://conteudo.imguol.com.br/c/noticias/69/2022/04/25/como-saber-se-um-perfil-e-fake-no-instagram-facebook-whatsapp-e-tiktok-1650912044927_v2_4x3.jpg" alt="">
+    
+            <div class="CardSearchHome">
+                <input type="text" id="InputSearchHome" placeholder="Pesquisar">
+                <i id="LupaSearchHome" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+    
+            <div class="InfoUseHome">
+                <i class="fa-solid fa-user"></i>
+                <a href="#">Login ou cadastre-se</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section nav -->
+    <section class="SectionNav">
+        <div class="Left">
+            <button id="BtnToggleCategorias">
+                <span id="SpanCategoriasUm"></span>
+                <span id="SpanCategoriasDois"></span>
+                <span id="SpanCategoriasTrez"></span>
+            </button>
+            <p id="BtnToggleCategorias" style="cursor: pointer;">Todas as categorias</p>
+            <!-- <i class="fa-solid fa-angle-up"></i> -->
+            <i id="BtnToggleCategorias" class="fa-solid fa-caret-down" style="cursor: pointer; transition: .4s ease-in-out;"></i>
+
+            <div id="InfoUseHome" class="InfoUseHome">
+                <i class="fa-solid fa-user"></i>
+                <a href="#">Login ou cadastre-se</a>
+            </div>
+        </div>
+
+        <div class="Rigth">
+            <button>
+                <i class="fa-solid fa-comment"></i>
+                Fale conosco
+            </button>
+
+            <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+                Carrinho
+            </button>
+        </div>
+    </section>
+    
+    <section class="ProdutosHome" id="ProdutosHome">
+        <div class="BannerProdutos">
+            <img src="https://s2-casaejardim.glbimg.com/yq5x5xPqNK7-IGNB1e2YBuqlIcI=/0x0:1280x851/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_a0b7e59562ef42049f4e191fe476fe7d/internal_photos/bs/2023/3/q/GC6ZlkSmqDTcC6ABTilw/petunia-g7bb06cba6-1280.jpg" alt="">
+        </div>
+
+        <nav class="NavCategorias">
+            <button>Todas</button>
+            <button>Infantil</button>
+            <button>Adulto</button>
+        </nav>
+
+        <div class="InsertProdutosHome" id="InsertProdutosHome">
+
+            <!--
+            <div class="CardProdutosHome">
+                <div class="Top">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS00IXiDyhDca7zG5M-eZPqtPQXReekw-VcMA&s" alt="">
+                    <p>Isso isso</p>
+                </div>
+
+                <div class="Bottom">
+                    <p>R$ 100</p>
+                    <button>Ver mais</button>
+                </div>
+            </div> 
+            -->
+            <!-- Mais cards -->
+        </div>
+    </section>
+
+    <footer>
+        <section class="SectionTop">
+            <div class="Info">
+                <p>
+                    Transformamos sonhos em realidade com excelência e dedicação.
+                </p>
+
+                <a>
+                    <i id="IpContatinos" class="fa-solid fa-envelope"></i>    
+                    Contate-nos
+                </a>
+            </div>
+
+            <iframe id="FrameFooter" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31108.785194026943!2d-38.5155072!3d-12.9335296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m1!3e6!5e0!3m2!1spt-BR!2sbr!4v1739965959974!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="SectionBottom">
+            <h4 id="H4FooterCreditos"></h4>
+        </section>
+    </footer>
+
+    <script type="module" src="../Javascript/Home.js"></script>
+    <script type="module" src="../Javascript/Produtos.js"></script>
+</body>
+</html>
