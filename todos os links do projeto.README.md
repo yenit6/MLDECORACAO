@@ -27,6 +27,10 @@ modelo saga senai
 
 https://docs.google.com/document/d/16vL52EelCVexN-3Cz-_rUStBLpwSM8NaeYOVfVbYVWI/edit?usp=sharing
 
+trelo
+
+https://trello.com/invite/b/67efda4d64f106526d683a48/ATTIb66de86f00285f51855ca0f6f0ad1189A1B4E5C8/ml-decoracao-tcc
+
 
 
 
