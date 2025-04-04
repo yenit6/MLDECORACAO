@@ -23,6 +23,10 @@ Requisitos funcionas /não funcionais/regra de negocio e outros documentos
 
 https://docs.google.com/document/d/1Fnr-jGtfy52uBckmwZCjTD58n2fJcURa9KRDlOvMWno/edit?usp=sharing
 
+modelo saga senai
+
+https://docs.google.com/document/d/16vL52EelCVexN-3Cz-_rUStBLpwSM8NaeYOVfVbYVWI/edit?usp=sharing
+
 
 
 
