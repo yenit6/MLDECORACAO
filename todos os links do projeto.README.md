@@ -10,10 +10,6 @@ Canva
 
 https://www.canva.com/design/DAGilpDHJO8/-kj7eyb7t5dLWnetMZTtrA/edit?utm_content=DAGilpDHJO8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-alternativas open source para lucidchart
-
-https://opensourcealternative.to/alternativesto/lucidchart
-
 drawio
 
 https://app.diagrams.net/#G1NXMRdEGWtMrvbHMWiJtloTn_v2cg2hKO#%7B%22pageId%22%3A%22IkAl6n67sQj0Z8s0-jb3%22%7D
