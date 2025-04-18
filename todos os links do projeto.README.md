@@ -28,6 +28,8 @@ trelo
 https://trello.com/invite/b/67efda4d64f106526d683a48/ATTIb66de86f00285f51855ca0f6f0ad1189A1B4E5C8/ml-decoracao-tcc
 
 
+diagrama de classes drawio
 
+https://app.diagrams.net/#G1NenzT1wSMuPB-dQbbCpeFfRKQkVUwEZO#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
 
 
