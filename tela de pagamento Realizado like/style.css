@@ -5,7 +5,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    
+    overflow: hidden;
     flex-direction: column;
    
     background: #F5F5DC;
@@ -16,7 +16,7 @@ body{
 header {
     background: gold;
     width: 100%;
-    height: auto;
+    height: 50px;
     margin: 0px;
     display: flex; /* Torna flexível */
     align-items: center; /* Alinha verticalmente */
@@ -94,24 +94,12 @@ nav button:hover{
 }
 
 
-button{
-    background: #FFD900;
-    border-radius: 20px;
-    height: 40px;
-    border: none;
-    margin-top: 5px;
-    padding: 5px;
-    font-size: larger;
-}
+
 
 
 .like{
     height: 200px;
     width: 200px;
-}
-
-.inici{
-    border: 1px solid black;
 }
 
 @media screen and (max-width:375px) {
@@ -139,5 +127,14 @@ div{
 
 }
 
-
+.inici{
+    border: 2px solid black;
+    background: #FFD900;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: larger;
+}
  
