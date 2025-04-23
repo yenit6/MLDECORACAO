@@ -1,80 +1,163 @@
 body {
     margin: 0;
     height: 100vh;
+    display: flex;  
+    position: relative;
+    color: black;
+    background: #F5F5DC;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+header {
+    background: #FFC300;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    display: flex; /* Torna flexível */
+    align-items: center; /* Alinha verticalmente */
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
+    padding: 10px 20px;
+
+}
+
+header button{
+    display: flex;
+    font-size: larger;
+    height: 30px;
+    width: 130px;
     color: white;
-    background-color:#2C2C2C;
-    ;
-    /* Adiciona um fundo padrão para o body */
-}
-
-.tabel {
-    display: flex;
+    background: #2C2C2C;
+    border: none;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
-    /* Centraliza o conteúdo dentro da tabela */
-    height: 480px;
-    width: 350px;
     flex-direction: column;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #DAA520;
-    /* Fundo semi-transparente */
-    position: relative;
-    /* Define a posição como relativa */
-    z-index: 1;
-    /* Coloca a tabela na frente */
 }
 
 
+header h1{
+    margin-left: 10px;
+}
+
+
+.placeimg{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
 .logo {
-    width: 100px;
-    height: auto;
+    width: 70px;
+    height: 70px;
     position: relative;
-    z-index: 2;
-    /* Coloca a imagem na frente */
+    background: gray;
+    border-radius: 100%;
+    
+}
+
+.placetitle{
+    
+    display: flex;
+    justify-content: center;
 }
 
 .title {
     position: relative;
     z-index: 2;
-    /* Coloca o título na frente */
 }
 
+.placetable{
+    display: flex;
+    justify-content: center;
+}
 
+.tabel {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    width: 600px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #FFC300;
+    position: relative;
+ 
+}
 
-input {
+.tabel input{
     border-radius: 5px;
-}
-
-button {
-    border-radius: 5px;
-}
-
-
-button{
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 250px;
     margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #2C2C2C;
+    border: none;
+    font-size: larger;
+    color: white;
 }
 
-input{
-    height: 20px;
+
+
+.div-criarConts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.div-criarConts button{
+    background: #2C2C2C;
+    color: white;
+    height: 35px;
     width: 200px;
+    border: none;
+    font-size: larger;
     margin: 10px;
+    border-radius: 10px;
+   
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    background: none;
+    font-size: larger;
+    
+}
+
+
+
+
+.PlaceHelp{
+    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+}
+
+
+
+.PlaceHelp div{
+    background: #FFC300;
+    height: 40px;
+    width: 300px;
+    font-size: larger;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    border-radius: 10px;
+    font-weight: 600;
+    margin  : 20px;
+
 }
