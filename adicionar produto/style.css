@@ -1,10 +1,11 @@
-body {
+body{
+    height: 100vh;
+    width: 100%;
     margin: 0;
     padding: 0;
-    height: 100vw;
-    width: 100%;
-    background: #F5F5DC;
+    overflow-y: scroll;
     overflow-x: hidden;
+    background: F5F5DC;
 }
 
 header {
@@ -119,91 +120,150 @@ nav button:hover {
 }
 
 
+.placeback{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.placeback button{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: large;
+    background: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+}
+
+main{
+    
+     height:100vh;   
+     width:100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.container-produtos{
+    background:white;
+    height: 600px;   
+    width: 800px;
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*
+.foto-produto{
+    
+}
+*/
 
 
+.foto-produto img {
+    height: 400px;
+    width: 300px;
+    
+}
 
+.Informaçoes-all{
+    
+    font-size: larger;
+    padding: 10px;
+}
 
-.title {
+.Informaçoes-geral{
+    
+    border-bottom:2px solid black;
+   
+}
+
+.Informaçoes-geral input{
+    height: 25px;
+    margin: 5px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.name-heart{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.price-star{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.descricao{
+    
+    flex-wrap: wrap;
+}
+
+.descricao ul  {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.button-reservar{
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.option-buy button {
-    margin: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
-   background: #0AE5CC;
-    color: black;
+.button-reservar button{
+    height: 40px;
+    width: 200px;
+    background: #8BF464;
+    color: #2c2c2c;
+    border-radius: 10px;
     border: none;
     font-size: larger;
-    border-radius: 10px;
 }
 
-.option-buy input{
-    margin: 20px;
-    padding: 10px 20px;
-    font-size: 1em;
+.descricao textarea{
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+
+.qtdp{
+    width: 30px;
     border-radius: 10px;
-    font-size: larger;
+    border: none;
     border: 1px solid black;
 }
 
 
-.cart {
-    text-align: center;
-    padding: 0 20px;
-}
-
-.category,
-.cart-item {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 2px solid black;
-}
-
-.cart-item img {
-    height: 80px;
-    width: 80px;
-}
-
-.cart-item button {
-    height: auto;
-    width: auto;
-    background: #2C2C2C;
-    color: white;
-    font-size: medium;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.trash-icon {
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
-}
 
 
 
-main{
-    margin: 10px;
- 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

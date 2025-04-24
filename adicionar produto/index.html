@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>MlDecoração - Carrinho</title>
+    <title>MlDecoração - Adicionar Produto</title>
 </head>
-
 <body>
+    
     <header>
         <h1>MlDecoração</h1>
 
@@ -34,79 +33,54 @@
         <button>Configuração</button>
     </div>
 
-    <div class="title">
-        <h1>Adicionar Produtos</h1>
+    <div class="placeback">
+        <button>Voltar</button>
     </div>
 
     <main>
-        <div class="option-buy">
 
-            
-            <input type="text" placeholder="🔍 Pesquise o Produto">
-            <button>Adicionar</button>
+        <div class="container-produtos">
+
+            <div class="foto-produto">
+                <input type="file">
+            </div>
+
+            <div class="Informaçoes-all">
+                
+                <div class="Informaçoes-geral">
+                    <div class="name-heart">
+                        <p>Nome<input type="text" placeholder="Digite o nome do Produto"></p>
+                    <img src="" alt="Simbolo de Favoritos">
+                    </div>
+                    <div class="price-star">
+                        <p>Preço<input type="text" placeholder="Digite o preço do Produto"></p>
+                    <img src="" alt="Estrelas de ">
+                    </div>
+                </div>
+                <div class="descricao">
+        
+                    <textarea name="" id="" placeholder="Digite a descrição do Produto"></textarea>
+                </div>
+
+                <div >
+                    <p>Adicione a quantidade de produto <input type="text" class="qtdp"></p>
+                </div>
+
+                <div class="button-reservar">
+                    <button>Adicionar Produto</button>
+                </div>
+
+            </div>
+
+
+
         </div>
 
-        <section class="cart">
 
-            <div class="category">
-                <p>Produto</p>
-                <p>Nome</p>
-                <p>id</p>
-                <p>Quantidade</p>
-                <p>Preço</p>
-                <p>Editar</p>
-                <p>Remover</p>
-            </div>
-
-            <div class="cart-item">
-                <img src="file/Sem título.jpg" alt="Produto 1">
-                <p>Decoração Aniversário Tubarão</p>
-                <p>1</p>
-                <p>3</p>
-                <p>R$700</p>
-                <button>&#9998; Editar</button>
-                <img src="file/recycle.png" class="trash-icon" alt="Remover">
-            </div>
-            <div class="cart-item">
-                <img src="file/Sem título.jpg" alt="Produto 1">
-                <p>Decoração Aniversário Tubarão</p>
-                <p>R$700</p>
-                <p>1</p>
-                <p>R$2100</p>
-                <button>&#9998; Editar</button>
-                <img src="file/recycle.png" class="trash-icon" alt="Remover">
-            </div>
-            <div class="cart-item">
-                <img src="file/Sem título.jpg" alt="Produto 1">
-                <p>Decoração Aniversário Tubarão</p>
-                <p>R$700</p>
-                <p>1</p>
-                <p>R$2100</p>
-                <button>&#9998; Editar</button>
-                <img src="file/recycle.png" class="trash-icon" alt="Remover">
-            </div>
-            <div class="cart-item">
-                <img src="file/Sem título.jpg" alt="Produto 1">
-                <p>Decoração Aniversário Tubarão</p>
-                <p>R$700</p>
-                <p>1</p>
-                <p>R$2100</p>
-                <button>&#9998; Editar</button>
-                <img src="file/recycle.png" class="trash-icon" alt="Remover">
-            </div>
-
-            <div class="cart-item">
-                <img src="file/Sem título.jpg" alt="Produto 1" class="fotoprod">
-                <p>Decoração Aniversário Tubarão</p>
-                <p>R$700</p>
-                <p>1</p>
-                <p>R$2100</p>
-                <button>&#9998; Editar</button>
-                <img src="file/recycle.png" class="trash-icon" alt="Remover">
-            </div>
-
-        </section>
     </main>
+
+    
+
 
     <footer>
 
@@ -138,8 +112,6 @@
         </div>
 
     </footer>
-
-
 
 <script src="script.js"></script>
 </body>
