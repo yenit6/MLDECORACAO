@@ -203,36 +203,12 @@ section{
 @media screen and (max-width:375px) {
 
     
-   .containerTermo{
-    width: 340px;
-    overflow-y: scroll;
-    margin-top: 15px;
-   }
-    
-   #bntvoltar{
-    border: 2px solid black;
-    background: #2C2C2C;
-    color: #FFFFFF;
-    width: 170px;
-    border-radius: 10px;
-    height: 40px;
-    border: none;
-    margin-top: 5px;
-    padding: 5px;
-    font-size: larger;
-    
-}
-
-}
-    
-    
-@media screen and (max-width:390px) {
-
-    
     .containerTermo{
-     width: 350px;
+     height: 400px;
+     width: 340px;
      overflow-y: scroll;
      margin-top: 15px;
+     padding: 5px;
     }
      
     #bntvoltar{
@@ -250,4 +226,58 @@ section{
  }
  
  }
-    
+     
+     
+ @media screen and (max-width:390px) {
+ 
+     
+     .containerTermo{
+      width: 350px;
+      overflow-y: scroll;
+      margin-top: 15px;
+      padding: 5px;
+     }
+      
+     #bntvoltar{
+      border: 2px solid black;
+      background: #2C2C2C;
+      color: #FFFFFF;
+      width: 170px;
+      border-radius: 10px;
+      height: 40px;
+      border: none;
+      margin-top: 5px;
+      padding: 5px;
+      font-size: larger;
+      
+  }
+  
+  }
+     
+ 
+  @media screen and (max-width:412px) {
+ 
+     
+     .containerTermo{
+      height: 650px;
+      width: 350px;
+      overflow-y: scroll;
+      margin-top: 15px;
+      padding: 5px;
+     }
+      
+     #bntvoltar{
+      border: 2px solid black;
+      background: #2C2C2C;
+      color: #FFFFFF;
+      width: 170px;
+      border-radius: 10px;
+      height: 40px;
+      border: none;
+      margin-top: 5px;
+      padding: 5px;
+      font-size: larger;
+      
+  }
+  
+  }
