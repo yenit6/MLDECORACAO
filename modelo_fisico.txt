@@ -1,0 +1,66 @@
+CREATE TABLE usuario (
+    id_usuario INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    senha VARCHAR(255),
+    cpf_cnpj VARCHAR(20),
+    telefone VARCHAR(20),
+    cep VARCHAR(10),
+    rua VARCHAR(100),
+    numero_da_casa VARCHAR(10),
+    bairro VARCHAR(50),
+    cidade VARCHAR(50),
+    data_cadastro DATE
+);
+
+CREATE TABLE produto (
+    id_produto INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255),
+    descricao TEXT,
+    categoria VARCHAR(100),
+    preco DECIMAL(10, 2),
+    quantidade INT
+);
+
+CREATE TABLE avaliacao (
+    id_avaliacao INT PRIMARY KEY AUTO_INCREMENT,
+    estrelas INT,
+    comentario TEXT,
+    data_avaliacao DATE,
+    fk_produto_id_produto INT,
+    fk_usuario_id_usuario INT,
+    FOREIGN KEY (fk_produto_id_produto) REFERENCES produto(id_produto) ON DELETE CASCADE,
+    FOREIGN KEY (fk_usuario_id_usuario) REFERENCES usuario(id_usuario) ON DELETE CASCADE
+);
+
+CREATE TABLE carrinho (
+    id_carrinho INT PRIMARY KEY AUTO_INCREMENT,
+    quantidade_carrinho INT,
+    preco_total_carrinho DECIMAL(10, 2),
+    data_e_hora_criacao_carrinho DATETIME,
+    status_carrinho BOOLEAN,
+    fk_usuario_id_usuario INT,
+    fk_produto_id_produto INT,
+    FOREIGN KEY (fk_usuario_id_usuario) REFERENCES usuario(id_usuario) ON DELETE CASCADE,
+    FOREIGN KEY (fk_produto_id_produto) REFERENCES produto(id_produto) ON DELETE RESTRICT
+);
+
+CREATE TABLE reservar (
+    id_reserva INT PRIMARY KEY AUTO_INCREMENT,
+    quantidade_reserva INT,
+    valor_total_reserva DECIMAL(10, 2),
+    data_e_hora_reserva DATETIME,
+    status_reserva BOOLEAN,
+    fk_produto_id_produto INT,
+    fk_usuario_id_usuario INT,
+    FOREIGN KEY (fk_produto_id_produto) REFERENCES produto(id_produto) ON DELETE RESTRICT,
+    FOREIGN KEY (fk_usuario_id_usuario) REFERENCES usuario(id_usuario) ON DELETE CASCADE
+);
+
+CREATE TABLE favoritado (
+    fk_produto_id_produto INT,
+    fk_usuario_id_usuario INT,
+    PRIMARY KEY (fk_produto_id_produto, fk_usuario_id_usuario),
+    FOREIGN KEY (fk_produto_id_produto) REFERENCES produto(id_produto) ON DELETE SET NULL,
+    FOREIGN KEY (fk_usuario_id_usuario) REFERENCES usuario(id_usuario) ON DELETE SET NULL
+);
