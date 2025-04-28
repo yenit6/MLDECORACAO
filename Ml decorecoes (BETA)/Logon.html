@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assets/Style/Logon.css">
+    <title>ML decorações - Logon</title>
+</head>
+<body>
+
+    <header>
+        <button id="BtnBackPage"><i class="fa-solid fa-caret-left"></i> Voltar</button>
+        <h4>ML decorações</h4>
+    </header>
+    
+
+    <div class="Container">
+        <!-- Login -->
+        <section class="LoginContainer">
+            <h4>Login</h4>
+
+            <section>
+                <div class="CardLogon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="InputEmailLogin" placeholder="Email">
+                </div>
+    
+                <div class="CardLogon Pass">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="InputPasswordLogin" placeholder="Password">
+                    <i class="fa-solid fa-eye" id="IToggleVerPassLogin"></i>
+                </div>
+            </section>
+
+            <a href="#" target="_blank">Esqueceu a senha?</a>
+
+            <div class="Controls">
+                <button>Entrar</button>
+                <h3>
+                    Não possui uma conta? <a id="BtnCadastreSe">Cadastra-se</a>
+                </h3>
+            </div>
+        </section>
+
+        <!-- Cadastro -->
+        <div class="ContainerCadastro">
+            <h4>Cadastro</h4>
+
+            <section>
+                <div class="CardCadastro">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="InputEmailCadastro" placeholder="Email">
+                </div>
+    
+                <div class="CardCadastro Pass">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="InputPasswordCadastro" placeholder="Password">
+                    <i class="fa-solid fa-eye" id="IToggleVerPassCadastro"></i>
+                </div>
+            </section>
+
+            <div class="Controls">
+                <button>Cadastrar</button>
+                <h3>
+                    Possui uma conta? <a id="BtnLogin">Login</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <section class="ContainerProblemas" id="ContainerProblemas">
+        <h4 id="H4TitleProblemas">Problemas?</h4>
+        <div class="CardProblema" id="CardProblema">
+            <i class="fa-solid fa-user"></i>
+            Fale com nosco
+        </div>
+
+        <div class="CardProblema" id="CardProblema">
+            <i class="fa-brands fa-android"></i>
+            Robo
+        </div>
+    </section>
+
+    <script src="Assets/Javascript/Logon.js"></script>
+</body>
+</html>
