@@ -61,6 +61,7 @@ CREATE TABLE favoritado (
     fk_produto_id_produto INT,
     fk_usuario_id_usuario INT,
     PRIMARY KEY (fk_produto_id_produto, fk_usuario_id_usuario),
-    FOREIGN KEY (fk_produto_id_produto) REFERENCES produto(id_produto) ON DELETE SET NULL,
-    FOREIGN KEY (fk_usuario_id_usuario) REFERENCES usuario(id_usuario) ON DELETE SET NULL
+    FOREIGN KEY (fk_produto_id_produto) REFERENCES produto(id_produto) ON DELETE CASCADE,
+    FOREIGN KEY (fk_usuario_id_usuario) REFERENCES usuario(id_usuario) ON DELETE CASCADE
 );
+
