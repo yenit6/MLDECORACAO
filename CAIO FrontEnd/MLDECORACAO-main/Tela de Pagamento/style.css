@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #F5F5DC;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+header {
+    background: gold;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    display: flex; /* Torna flexível */
+    align-items: center; /* Alinha verticalmente */
+    justify-content:space-between; /* Espaço entre os elementos */
+    padding: 10px 20px;
+}
+
+
+header h1{
+    margin-left: 10px;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    height: 50px;
+  
+}
+
+
+nav button{
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+    border: none;
+    background: none;
+}
+
+nav button:hover{
+   color: gold;
+}
+
+.container{
+    display: flex;
+     align-items: center;
+     margin-right: 20px;
+}
+
+
+.containerOption {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.ImageUser {
+    border-radius: 100px;
+    background: gray;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+
+
+#bntvoltar{
+    border: 2px solid black;
+    background: #2C2C2C;
+    color: #FFFFFF;
+    width: 170px;
+    border-radius: 10px;
+    height:50px;
+    border: none;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: larger;
+}
+
+
+
+#TablePay{
+    background: #FFFFFF;
+    border: none;
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+   
+}
+
+.methodPaymant{
+    background: none;
+    width: 300px;
+    border: none;
+    background: #2C2C2C;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+#quadrado{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#politicas{
+    background: black;
+    color: white;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px  black;
+    padding: 5px;
+}
+
+
+
+#Orcamento,#politicas,.methodPaymant,#Reserv,#Voltar{
+    font-size: larger;  
+    
+}
+
+#Orcamento{
+    background: #FEEFC0;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px  black;
+    padding: 5px;
+}
+
+#Reserv{
+    background: #8BF464;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

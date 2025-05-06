@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+   
+    background: #F5F5DC;
+}
+
+header {
+    background: gold;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    display: flex; /* Torna flexível */
+    align-items: center; /* Alinha verticalmente */
+    justify-content:space-between; /* Espaço entre os elementos */
+    padding: 10px 20px;
+}
+
+
+header h1{
+    margin-left: 10px;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    height: 50px;
+  
+}
+
+
+nav button{
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    font-size: larger;
+    border: none;
+    background: none;
+}
+
+nav button:hover{
+   color: gold;
+}
+
+
+.container{
+    display: flex;
+     align-items: center;
+     margin-right: 20px;
+}
+
+
+.containerOption {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.ImageUser {
+    border-radius: 100px;
+    background: gray;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.ImageUser{
+    border-radius: 100px;
+    background: gray;
+    height: 40px;
+    width: 40px;
+}
+
+
+.LocalQr{
+    margin-top: 30px;
+    border: solid 2px;
+    height: 250px;
+    width: 750px;
+    display: flex;
+    padding: 20px;
+}
+
+#Imgqrcode{
+    height: 200px;
+    width: 200px;
+}
+
+
+
