@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MlDecoração - calendário </title>
+</head>
+
+<body>
+
+
+
+    <header>
+        <h1>MlDecoração</h1>
+
+        <div class="container">
+            <div class="containerOption">
+                <img src="file/shopping-cart.png" alt="Carrinho de compras">
+                <img src="file/hearth.png" alt="Favoritos">
+            </div>
+
+            <div class="ImageUser"></div>
+        </div>
+    </header>
+
+    <nav>
+        <button id="button-all"><span class="menu-icon">☰</span> Todas as Categorias</button>
+        <button><span class="search-icon">🔍</span> Fale Conosco</button>
+    </nav>
+
+    
+    <div id="dropdown-menu" class="menucult">
+        <button>Login ou Cadastra-se</button>
+        <button>Notificação</button>
+        <button>Configuração</button>
+    </div>
+
+
+
+
+    <div class="placeback">
+    <button id="bntvoltar">voltar</button>
+    </div>    
+
+
+    <div class="title">
+        <h1>Calendário Interativo</h1>
+    </div>
+
+    <main> 
+        
+    <div id="TableCalendar">
+        <p>Marque o dia da sua festa</p>   
+
+        <div class="month-nav">
+            <button onclick="changeMonth(-1)">&#9664;</button>
+            <span id="month-display">julho</span>
+            <button onclick="changeMonth(1)">&#9654;</button>
+            
+            <select id="year-select"></select>
+        </div>
+    
+        <div id="calendar"></div>
+    
+        <div class="date-output">
+            <div id="day-output">Dia: </div>
+            <div id="month-output">Mês: </div>
+            <div id="year-output">Ano: </div>
+        </div>
+    
+        <div class="rental-dates">
+            <div id="party-date">Data da Festa: --</div>
+            <div id="pickup-date">Data de Retirada: --</div>
+            <div id="return-date">Data de Devolução: --</div>
+        </div>
+    
+        <div class="terms-button">
+            <!-- Botão desativado até que uma data seja selecionada -->
+            <button class="confirm">Confirmar</button>
+        </div>
+
+
+    </div>
+</main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
