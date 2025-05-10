@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    background: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background: #FFC300;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    display: flex; /* Torna flexível */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center;
+    padding: 10px 20px;
+
+}
+
+header button{
+    display: flex;
+    font-size: larger;
+    height: 30px;
+    width: 130px;
+    color: white;
+    background: #2C2C2C;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+header h1{
+    margin-left: 10px;
+}
+
+
+.placeimg{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    background: gray;
+    border-radius: 100%;
+    
+}
+
+.placetitle{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+}
+
+.placetable{
+    display: flex;
+    justify-content: center;
+}
+
+.tabel {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 600px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFC300;
+    position: relative;
+    z-index: 1;
+ 
+}
+
+.tabel input{
+    border-radius: 5px;
+    height: 35px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #2C2C2C;
+    border: none;
+    font-size: larger;
+    color: white;
+}
+
+.Esqueceu{
+    color: black;
+    display: flex;
+    padding-left: 11px;
+    font-size: larger;
+}
+
+.div-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.div-login button{
+    background: #2C2C2C;
+    color: white;
+    height: 35px;
+    width: 200px;
+    border: none;
+    font-size: larger;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    background: none;
+    font-size: larger;
+    
+}
+
+.PlaceHelp{
+    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+}
+
+
+
+.PlaceHelp div{
+    background: #FFC300;
+    height: 40px;
+    width: 300px;
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 600;
+    margin  : 20px;
+
+}
