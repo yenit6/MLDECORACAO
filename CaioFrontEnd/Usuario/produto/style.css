@@ -249,6 +249,7 @@ section{
 
 .user-comentario{
     border:  1px solid black;
+     background: white;
     height: auto;
     width:500px;
     padding: 10px;
