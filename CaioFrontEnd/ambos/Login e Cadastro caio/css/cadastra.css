@@ -76,36 +76,111 @@ header h1{
 
 .tabel {
     display: flex;
-    justify-content: center;
-    display: flex;
     align-items: center;
     justify-content: center;
     height:auto;
     width: 600px;
     flex-direction: column;
     border-radius: 10px;
-    box-sizing: border-box;
     background-color: #FFC300;
-    position: relative;
- 
+    
 }
 
-.tabel input{
-    border-radius: 5px;
-    height: 35px;
-    width: 250px;
-    margin: 10px;
+
+
+
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    max-width: 600px;
+    
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #2C2C2C;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.input-group input {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 1.2em;
+}
+
+/* Aba ativa de navegação */
+.Barra-nav button {
+    font-weight: normal;
+    border-bottom: 2px solid transparent;
+}
+
+
+.Btn-group{
+
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background: #2C2C2C;
-    border: none;
-    font-size: larger;
+}
+
+.Btn-group button{
+    background:  #2C2C2C;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    width: 37%;
 }
 
 
+
+
+
+.PlaceHelp{
+    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+}
+
+
+
+.PlaceHelp div{
+    background: #FFC300;
+    height: 40px;
+    width: 300px;
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 600;
+    margin  : 20px;
+
+}
 
 .div-criarConts{
     display: flex;
@@ -135,29 +210,3 @@ header h1{
 }
 
 
-
-
-.PlaceHelp{
-    
-    display: flex;
-    align-items: end;
-    justify-content: end;
-    height: 100%;
-}
-
-
-
-.PlaceHelp div{
-    background: #FFC300;
-    height: 40px;
-    width: 300px;
-    font-size: larger;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    font-weight: 600;
-    margin  : 20px;
-
-}
