@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: #F5F5DC;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: gold;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    display: flex; /* Torna flexível */
+    align-items: center; /* Alinha verticalmente */
+    justify-content:space-between; /* Espaço entre os elementos */
+    padding: 10px 20px;
+}
+
+
+header h1{
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+     align-items: center;
+     margin-right: 60px;
+}
+
+
+.containerOption {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.ImageUser {
+    border-radius: 100px;
+    background: gray;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+.header-icons img,
+.ImageUser {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.ImageUser {
+    width: 30px;
+    background: gray;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #2C2C2C;
+    color: white;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: gold;
+}
+
+
+/*menu */
+
+#dropdown-menu {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    z-index: 100;
+    flex-direction: column;
+}
+
+/* Esconde o menu por padrão */
+.menucult {
+    display: none;
+}
+
+/* Exibe o menu quando ativo */
+.ativo {
+    display: flex;
+}
+
+#dropdown-menu button {
+    margin: 5px 0;
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#dropdown-menu button:hover {
+    background-color: #444;
+}
+
+
+.continue-buy button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: larger;
+    background: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.continue-buy button:hover {
+    color: #2C2C2C;
+    background: #FFC300;
+    border: 1px solid black;
+    
+}
+
+
+
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.cart {
+    flex: 1;
+    
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.category,
+.cart-item {
+    display: grid;
+    grid-template-columns: 60px 1.5fr 1fr 1fr 1fr 50px; /* Define largura fixa para cada “coluna” */
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.cart-item img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.trash-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    justify-self: center;
+}
+
+
+.reserva {
+    width: 300px;
+    background: #FFC300;
+    padding: 20px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.reserva button {
+    background: green;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.reserva button:hover {
+    color: gold;
+    background: #2C2C2C;
+     
+}
+
+
+
+/*Footer */
+
+footer {
+    background: #2C2C2C;
+    color: white;
+    width: 100%;
+    margin-top: auto;
+}
+
+.infoMain{  
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+
+.infoSecond{
+    padding: 5px;
+    height: auto;
+    width: 370px;
+    font-size: larger;
+
+}
+
+.infoSecond p:nth-child(2){
+    
+    border-bottom: 2px solid white;
+}
+
+.Symbol{
+    border-radius: 100px;
+    background: gray;
+    height: 40px;
+    width: 40px;
+    
+}
+
+
+
+.copy {
+    background: #FFC300;
+    color: #2C2C2C;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+
+@media screen and (max-width:768px) {
+    
+
+    .infoSecond{
+        width: 40%;
+        background: red;
+        
+    }
+    .Map{
+        width: 50%;
+    }
+
+    .maps{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+}
