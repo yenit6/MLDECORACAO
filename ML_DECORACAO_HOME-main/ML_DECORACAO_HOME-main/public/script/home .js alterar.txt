@@ -1,0 +1,13 @@
+tenta alterar essa parte 
+
+
+produtoDiv.innerHTML = `
+  <div class="Top">
+    <img src="/imagens_div/produtos/${produto.id_produto}.webp" alt="Imagem do Produto ${produto.nome}">
+    <p>${produto.nome}</p>
+  </div>
+  <div class="Bottom">
+    <p>R$ ${produto.preco}</p>
+    <button>Ver mais</button>
+  </div>
+`;
